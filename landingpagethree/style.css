@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+#top{ 
+    height: 60%;
+    background-image: url(https://images.pexels.com/photos/20528016/pexels-photo-20528016/free-photo-of-silhouette-of-woman-walking-along-seashore-at-dawn.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: 50% 60%;
+    background-size: cover;
+}
+#overly{
+    background-color: #0000005d;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+}
+#text{
+ position: absolute;
+ bottom: 20%;
+ width: 100%;
+ height:auto;
+ padding: 0 10vw;
+ color: white;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+}
+#text h1{
+    font-size: 6vw;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    width: 40%;
+
+}
+#textright{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#text #textright p{
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+
+}
+
+
+#bottom{
+    background-color: blueviolet;
+    height: 40%;
+    display: flex;
+}
+#bone{
+    width: 25%;
+    background-color: brown;
+    padding: 30px;
+}
+#btwo{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(255, 144, 144);
+    background-image: url(https://images.pexels.com/photos/3533228/pexels-photo-3533228.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+}
+#bthree{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#bthreetop{
+    width: 100%;
+    height: 50%;
+    background-color: orchid;
+}
+#bthreebottom{
+    width: 100%;
+    height: 50%;
+    background-color: darkolivegreen;
+    background-image: url(https://images.pexels.com/photos/982585/pexels-photo-982585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: cover;
+}
+#bfour{
+    width: 30%;
+    height: auto;
+    background-color: pink;
+    background-color: #444;
+    padding: 10px;
+
+    
+}
+.notify{
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+#bfour h3{
+    color: white;
+
+}
+.notify #photo{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50px;
+    
+    
+}
+.notify p{
+    width: 80%;
+}
